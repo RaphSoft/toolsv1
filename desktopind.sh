@@ -65,7 +65,9 @@ echo "\033[34;1m Tanggal:"
     date +"%d-%m-%y"
 echo ""
 echo $blue"----------[OTHERS]----------"
-echo $cyan"00).English version"
+echo $cyan"000).English version"
+echo $red"-----------------------------"
+echo $cyan"100). Exit"
 echo $red"-----------------------------"
 echo $cyan"1).Chatting IRSSI"
 echo $red"-----------------------------"
@@ -948,8 +950,8 @@ read -p "Silahkan pilih:" umr;
 
 if [ $umr -eq 1 ]; 
 then 
-echo Goodbye |lolcat 
-echo And see you again |lolcat 
+echo Terimakasih telah menggunakan tools kami |lolcat 
+echo Semoga berjumpa lagi |lolcat 
 exit 
 fi 
 
